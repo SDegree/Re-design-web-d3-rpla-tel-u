@@ -8,7 +8,7 @@ function nextSlideshow() {
   if (i > 3) {
     i = 1;
   }
-  slideshow.setAttribute("src", `../assets/img/news/berita${i}.png`);
+  slideshow.setAttribute("src", `./assets/img/news/berita${i}.png`);
 }
 
 function startSlideshow() {
